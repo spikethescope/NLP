@@ -18,6 +18,7 @@ import keras
 from keras import layers, Sequential
 from keras.preprocessing.text import Tokenizer
 from keras.utils import to_categorical
+from tensorflow.keras.utils import pad_sequences
 from keras.layers import Embedding, Flatten, Dense
 
 """# 1.2 TOKENIZE THE SENTENCES AND GENERATE WORD INDEX MAPPING"""
